@@ -1,8 +1,9 @@
 from django.test import TestCase
 
-class YourTestClass(TestCase):
+class HomeTests(TestCase):
 
-    def setUpTestData(self):
+    @classmethod
+    def setUpTestData(cls):
         print("Ran setUpTestData. Should only run once")
 
     def setUp(self):
@@ -10,5 +11,6 @@ class YourTestClass(TestCase):
         pass
 
     def test_true_is_true(self):
+        print("Ran a basic test")
         self.assertTrue(True == True)
         pass
