@@ -1,7 +1,7 @@
 from django.test import TestCase
 
-class HomeTests(TestCase):
 
+class HomeTests(TestCase):
     @classmethod
     def setUpTestData(cls):
         print("Ran setUpTestData. Should only run once")
