@@ -21,4 +21,5 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("home.urls")),
+    path("peg-solitaire", include("peg_solitaire.urls"))
 ]
