@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "home.apps.HomeConfig",
-    "peg_solitaire.apps.PegSolitaireConfig"
+    "peg_solitaire.apps.PegSolitaireConfig",
 ]
 
 MIDDLEWARE = [
