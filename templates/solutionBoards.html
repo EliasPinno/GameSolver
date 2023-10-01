@@ -1,0 +1,12 @@
+{% for board in boards %}
+<div>
+    {% for row in board %}
+        <div>
+        {% for cell in row %}
+            {{ cell }}
+        {% endfor %}
+        </div>
+    {% endfor %}
+</div>
+<br>
+{% endfor %}
